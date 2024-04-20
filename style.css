@@ -8,8 +8,8 @@
 }
 
 :root{
-    --text-color:white;
-    --background-color:black;
+    --text-color:rgba(255, 0, 0, 0.767);
+    --background-color:#000000ca;
     --border:2px solid red;
 }
 
@@ -54,7 +54,7 @@ section p{
 
 
 section::after{
-    content: this is content;
+    content:"";
 }
 
 li{
@@ -69,11 +69,13 @@ li{
     justify-content: space-evenly;
     font-size: 10px;
     font-size: 20px;
+    font-weight: bolder;
 
 }
 
 .navigation li:hover{
-    background-color: red;
+    background-color:var(--background-color);
+    font-weight: bold;
 }
 
 
