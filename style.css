@@ -16,6 +16,11 @@
 body{
     background-color: var(--background-color);
     color: var(--text-color);
+    background: url('https://source.unsplash.com/random/1600*900') no-repeat center center/cover;
+}
+
+body:hover{
+    backdrop-filter: blur(4px);
 }
 
 section{
@@ -31,6 +36,9 @@ section{
 
 section h1{
     font-size: 4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 
 }
 
@@ -62,6 +70,10 @@ li{
     font-size: 10px;
     font-size: 20px;
 
+}
+
+.navigation li:hover{
+    background-color: red;
 }
 
 
